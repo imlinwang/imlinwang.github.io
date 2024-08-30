@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on Lin Wang (Paderborn University)</title>
+    <link>/collections/</link>
+    <description>Recent content in Collections on Lin Wang (Paderborn University)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 22 Oct 2022 17:25:11 +0200</lastBuildDate>
+    <atom:link href="/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>/collections/first-post/</link>
+      <pubDate>Sat, 22 Oct 2022 17:25:11 +0200</pubDate>
+      <guid>/collections/first-post/</guid>
+      <description>Hello</description>
+    </item>
+    <item>
+      <title>Reading List for In-Network Computing</title>
+      <link>/collections/inc-reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/collections/inc-reading-list/</guid>
+      <description>Switch Hardware [SIGCOMM&#39;13] Forwarding metamorphosis: fast programmable match-action processing in hardware for SDN [link] [SIGCOMM&#39;17] dRMT: disaggregated programmable switching [link] [ISCA&#39;21] A RISC-V in-network accelerator for flexible high-performance low-power packet processing [link] [SIGCOMM&#39;22] Programmable multi-dimensional table filters for line rate network functions [link] [ASPLOS&#39;22] Taurus: a data plane architecture for per-packet ML [link] [NSDI&#39;22] Isolation mechanisms for high-speed packet-processing pipelines [link] [NSDI&#39;22] Runtime programmable switches [link] NICs Programming Languages and Compilers [NSDI&#39;15] Compiling packet programs to reconfigurable switches [link] [SIGCOMM&#39;16] Packet transactions: high-level programming for line-rate switches [link] [SIGCOMM&#39;20] Switch code generation using program synthesis [link] [arXiv&#39;22] High-level synthesis for packet-processing pipelines [link] Applications [SC&#39;21] Flare: flexible in-network allreduce [link] [VLDB&#39;21] In-network support for transaction triaging [link] </description>
+    </item>
+  </channel>
+</rss>

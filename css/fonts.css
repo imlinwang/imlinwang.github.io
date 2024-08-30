@@ -1,0 +1,14 @@
+body {
+  font-family: 'Karla', Palatino, serif;
+}
+code {
+  font-family: "Source Code Pro", Monaco, monospace;
+  font-size: 85%;
+}
+.menu, .meta-line, footer {
+  font-family: "Karla", Candara, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Karla";
+}
