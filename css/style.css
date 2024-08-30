@@ -1,6 +1,6 @@
 :root {
-  --body-width: 1000px;
-  --text-width: 1000px;
+  --body-width: 1080px;
+  --text-width: 1080px;
   --bg-body: rgb(255, 255, 255);
   --bg-block: #f9f9f9;
   --border-color: #ddd;
@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   counter-reset: pageNumber;
-  font-size: 13pt;
+  font-size: 12pt;
 }
 
 /* header and footer areas */
@@ -116,7 +116,7 @@ ul ul, ol ul, ul ol, ol ol {
 }
 
 ul li:before {
-  content: "> "; 
+  content: "- "; 
   position: absolute;
   margin-left: -1rem;
   font-weight: 700;
@@ -135,12 +135,13 @@ ul.double-spaced li {
 }
 a {
   text-decoration: none;
-  border-bottom: 1px dashed;
-  color: initial;
+  /* border-bottom: 1px dashed; */
+  color: rgb(14, 88, 215);
 }
 :not(.logo) > a:hover {
-  position: relative;
-  inset: 1px 0 0 1px;
+  /* position: relative; */
+  /* inset: 1px 0 0 1px; */
+  color: rgb(24, 73, 158);
 }
 nav a, footer a, .archive a, sup a {
   border-bottom: none;
@@ -148,9 +149,9 @@ nav a, footer a, .archive a, sup a {
 .anchor {
   display: none;
 }
-:hover > .anchor {
+/* :hover > .anchor {
   display: inline;
-}
+} */
 .single .main h2 {
   /* border-bottom: 1px solid var(--border-color); */
   font-size: 18pt;

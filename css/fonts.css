@@ -1,14 +1,24 @@
 body {
-  font-family: 'Karla', Palatino, serif;
+  font-family: "Source Sans 3", serif;
+  font-weight: 300;
 }
 code {
-  font-family: "Source Code Pro", Monaco, monospace;
+  font-family: Monaco, monospace;
   font-size: 85%;
 }
 .menu, .meta-line, footer {
-  font-family: "Karla", Candara, sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: "Karla";
+  font-family: "Source Sans 3";
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 400;
 }
