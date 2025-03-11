@@ -1,24 +1,25 @@
 body {
-  font-family: "Source Sans 3", serif;
-  font-weight: 300;
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 400;
 }
 code {
   font-family: Monaco, monospace;
   font-size: 85%;
 }
 .menu, .meta-line, footer {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: "Source Sans 3";
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 16pt;
-  font-weight: 400;
+  font-size: 18pt;
+  font-weight: 600;
 }
 
 strong {
-  font-weight: 400;
+  font-weight: 600;
 }
