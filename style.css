@@ -1,0 +1,116 @@
+/* Add this to the top of your CSS to import Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 1rem; /* Add horizontal margin for small screens */
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background: none;
+  color: #222;
+  padding: 2rem 0 0 0; /* Add 2rem space at the top, no extra on sides/bottom */
+  text-align: left;
+  height: auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile-panel {
+  display: flex;
+  align-items: center; /* Vertically center both items */
+  justify-content: flex-start;
+  background: none;
+  padding: 1rem 0;
+  border-radius: 0;
+  color: #222;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem auto;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  height: 100%;
+}
+
+.profile-img {
+  height: auto;
+  max-height: 140px; /* Reduce max height to better match text height */
+  width: auto;
+  aspect-ratio: 1 / 1;
+  min-width: 80px;   /* Reduce min size for better balance */
+  min-height: 80px;
+  border-radius: 0;
+  border: 0px solid #fff;
+  margin-bottom: 0;
+  margin-right: 2rem;
+  object-fit: cover;
+  align-self: center; /* Vertically center image */
+}
+
+.profile-info {
+  text-align: left;
+  align-self: center;          /* Ensure both are vertically centered */
+}
+
+.profile-info h2,
+.profile-info p {
+  color: #222; /* Ensure both heading and paragraph are dark */
+}
+
+.profile-info h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: none;
+  padding: 0 0 1rem 0;   /* Reduce bottom padding to 1rem */
+  border-radius: 0;
+  box-shadow: none;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: left;
+  padding: 0.1rem 0;     /* Reduce vertical padding */
+  background: none;
+  color: #222;
+  margin-top: 0.1rem;    /* Reduce space above footer */
+  font-size: 0.95rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
