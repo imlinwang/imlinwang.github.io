@@ -34,6 +34,8 @@ header {
   box-sizing: border-box;
   font-size: 18px; /* Ensures consistent font size across devices */
   height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* Ensure .profile-panel stays row-oriented on all screens */
@@ -51,6 +53,8 @@ header {
     margin-top: 3rem;
     text-align: center;                /* Center text on small screens */
     font-size: 18px !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 }
 
