@@ -44,6 +44,8 @@ header {
     flex-direction: column !important; /* Stack vertically on small screens */
     align-items: center;               /* Center items horizontally */
     font-size: 18px !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
   .profile-img {
     margin-right: 0;                   /* Remove right margin when stacked */
