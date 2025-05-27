@@ -37,7 +37,7 @@ header {
 }
 
 /* Ensure .profile-panel stays row-oriented on all screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .profile-panel {
     flex-direction: column !important; /* Stack vertically on small screens */
     align-items: center;               /* Center items horizontally */
