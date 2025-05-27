@@ -39,7 +39,17 @@ header {
 /* Ensure .profile-panel stays row-oriented on all screens */
 @media (max-width: 600px) {
   .profile-panel {
-    flex-direction: row !important;
+    flex-direction: column !important; /* Stack vertically on small screens */
+    align-items: center;               /* Center items horizontally */
+    font-size: 18px !important;
+  }
+  .profile-img {
+    margin-right: 0;                   /* Remove right margin when stacked */
+    margin-bottom: 3rem;             /* Increase space below image */
+  }
+  .profile-info {
+    margin-top: 3rem;
+    text-align: center;                /* Center text on small screens */
     font-size: 18px !important;
   }
 }
