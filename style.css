@@ -36,6 +36,14 @@ header {
   height: 100%;
 }
 
+/* Ensure .profile-panel stays row-oriented on all screens */
+@media (max-width: 600px) {
+  .profile-panel {
+    flex-direction: row !important;
+    font-size: 18px !important;
+  }
+}
+
 .profile-img {
   height: auto;
   max-height: 140px; /* Reduce max height to better match text height */
@@ -53,7 +61,9 @@ header {
 
 .profile-info {
   text-align: left;
-  align-self: center;          /* Ensure both are vertically centered */
+  align-self: center;
+  font-size: 18px !important; /* Fixed font size across all devices */
+  /* Optional: add a min-width if you want to prevent it from shrinking too much */
 }
 
 .profile-info h2,
