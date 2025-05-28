@@ -6,6 +6,7 @@ body {
   margin: 0 1rem; /* Add horizontal margin for small screens */
   background: #ffffff;
   color: #222;
+  line-height: 1.5;
 }
 
 header {
@@ -43,18 +44,18 @@ header {
 @media (max-width: 800px) {
   .profile-panel {
     flex-direction: column !important; /* Stack vertically on small screens */
-    align-items: center;               /* Center items horizontally */
+    align-items: left;               /* Center items horizontally */
     font-size: 18px !important;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
   .profile-img {
     margin-right: 0;                   /* Remove right margin when stacked */
-    margin-bottom: 3rem;             /* Increase space below image */
   }
   .profile-info {
     margin-top: 3rem;
-    text-align: center;                /* Center text on small screens */
+    margin-bottom: 3rem;
+    text-align: left;                /* Center text on small screens */
     font-size: 18px !important;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -65,15 +66,15 @@ header {
 
 .profile-img {
   height: auto;
-  max-height: 140px; /* Reduce max height to better match text height */
+  max-height: 200px; /* Reduce max height to better match text height */
   width: auto;
   aspect-ratio: 1 / 1;
-  min-width: 80px;   /* Reduce min size for better balance */
-  min-height: 80px;
+  min-width: 100px;   /* Reduce min size for better balance */
+  min-height: 100px;
   border-radius: 0;
   border: 0px solid #fff;
   margin-bottom: 0;
-  margin-right: 2rem;
+  margin-right: 0rem;
   object-fit: cover;
   align-self: center; /* Vertically center image */
 }
@@ -135,7 +136,7 @@ h1, h2 {
 }
 
 footer {
-  text-align: left;
+  text-align: center;
   padding: 0.1rem 0;     /* Reduce vertical padding */
   background: none;
   color: #222;
@@ -144,6 +145,7 @@ footer {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 600px) {
@@ -151,6 +153,3 @@ footer {
     font-size: 18px !important;
   }
 }
-
-/* Add this meta tag for viewport settings */
-<meta name="viewport" content="width=device-width, initial-scale=1">
