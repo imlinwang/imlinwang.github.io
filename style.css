@@ -23,6 +23,8 @@ header {
 
 .profile-panel {
   display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
   align-items: center; /* Vertically center both items */
   justify-content: flex-start;
   background: none;
@@ -48,9 +50,11 @@ header {
     font-size: 18px !important;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    flex-wrap: wrap;
   }
   .profile-img {
     margin-right: 0;                   /* Remove right margin when stacked */
+    flex-shrink: 0;
   }
   .profile-info {
     margin-top: 3rem;
@@ -61,6 +65,7 @@ header {
     text-size-adjust: 100%;
     min-width: 0;  /* Prevent Safari flexbox text scaling bug */
     width: 100%;   /* Ensure it uses available width */
+    flex-shrink: 0;
   }
 }
 
@@ -77,6 +82,7 @@ header {
   margin-right: 0rem;
   object-fit: cover;
   align-self: center; /* Vertically center image */
+  flex-shrink: 0;
 }
 
 .profile-info {
@@ -86,6 +92,7 @@ header {
   /* Optional: add a min-width if you want to prevent it from shrinking too much */
   min-width: 0;  /* Prevent Safari flexbox text scaling bug */
   width: 100%;   /* Ensure it uses available width */
+  flex-shrink: 0;
 }
 
 .profile-info h2,
