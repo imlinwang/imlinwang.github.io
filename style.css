@@ -74,7 +74,7 @@ header {
 
 .profile-img {
   height: auto;
-  max-height: 200px; /* Reduce max height to better match text height */
+  max-height: 160px; /* Reduce max height to better match text height */
   width: auto;
   aspect-ratio: 1 / 1;
   min-width: 100px;   /* Reduce min size for better balance */
