@@ -1,16 +1,17 @@
 /* Add this to the top of your CSS to import Roboto from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,700&display=swap');
 
 html {
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  font-family: 'Ubuntu Sans', Times, serif;
+  font-family: 'Overpass', Times, serif;
   margin: 0 1rem; /* Add horizontal margin for small screens */
   background: #ffffff;
   color: #222;
   line-height: 1.5;
+  font-weight: 300;
 }
 
 header {
