@@ -7,12 +7,12 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  background: #fff;
 }
 
 body {
   font-family: 'Ubuntu Sans', system-ui, sans-serif;
   margin: 0;
-  background: #f8f9fb;
   color: #1a1a2e;
   line-height: 1.65;
   font-weight: 400;
@@ -84,6 +84,10 @@ header {
 }
 
 /* ── Main content ── */
+.main-bg {
+  background: #f8f9fb;
+}
+
 main {
   max-width: 860px;
   margin: 0 auto;
