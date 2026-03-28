@@ -1,95 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
   <meta charset="UTF-8">
-  <title>Lin Wang's Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lin Wang</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="profile-panel">
-      <div class="profile-info">
-        <h2>Lin Wang</h2>
-        <p>Full Professor <br> 
-          Department of Computer Science<br>
-          Paderborn University<br><br>
-          Email: <a href="mailto:lin.wang@uni-paderborn.de">lin.wang AT uni-paderborn DOT de</a><br>
-          Address: Pohlweg 51, 33098 Paderborn, Germany</p>
-      </div>
       <img src="images/profile.jpeg" alt="Profile Photo" class="profile-img">
+      <div class="profile-info">
+        <h1>Lin Wang</h1>
+        <p class="profile-title">Full Professor &amp; Head of <a href="https://en.cs.uni-paderborn.de/cn">Computer Networks</a><br>
+          Department of Computer Science, Paderborn University</p>
+        <p class="profile-contact">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> lin.wang AT uni-paderborn DOT de</span>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Pohlweg 51, 33098 Paderborn, Germany</span>
+        </p>
+      </div>
     </div>
   </header>
+
   <main>
     <section id="about">
       <p>
-        I am a Full Professor (W3) and Head of the <a href="https://en.cs.uni-paderborn.de/cn">Computer Networks</a> group in the <a href="https://cs.uni-paderborn.de/en/">Department of Computer Science</a> at Paderborn University. I am generally interested in the design,  implementation, and evaluation of cloud- or mobile-based networked systems for supporting demanding workloads such as AI/ML inference and live video analytics. I received my Ph.D. in Computer Science from the <a href="https://en.wikipedia.org/wiki/Institute_of_Computing_Technology_(CAS)">Institute of Computing Technology</a>, Chinese Academy of Sciences in 2015. Before joining Paderborn University, I was a tenured Assistant Professor in the <a href="https://www.vucompsys.net">Computer Systems</a> group at Vrije Universiteit Amsterdam. Before that, I held (visiting) positions at TU Darmstadt, SnT Luxembourg, and IMDEA Networks Institute. 
+        I am a Full Professor (W3) and Head of the <a href="https://en.cs.uni-paderborn.de/cn">Computer Networks</a> group in the <a href="https://cs.uni-paderborn.de/en/">Department of Computer Science</a> at Paderborn University. I am generally interested in the design, implementation, and evaluation of cloud- or mobile-based networked systems for supporting demanding workloads such as AI/ML inference and live video analytics. I received my Ph.D. in Computer Science from the <a href="https://en.wikipedia.org/wiki/Institute_of_Computing_Technology_(CAS)">Institute of Computing Technology</a>, Chinese Academy of Sciences in 2015. Before joining Paderborn University, I was a tenured Assistant Professor in the <a href="https://www.vucompsys.net">Computer Systems</a> group at Vrije Universiteit Amsterdam. Before that, I held (visiting) positions at TU Darmstadt, SnT Luxembourg, and IMDEA Networks Institute.
       </p>
-      <b>Updates:</b>
-      <ul>
-        <li>03.2026: Paper on benchmarking VLM performance accepted to <a href="https://euromlsys.eu">EuroMLSys</a>.</li>
-        <li>01.2026: Paper on vLLM startup latency analysis accepted to <a href="https://mlsys.org">MLSys 2026</a>.</li>
-        <li>01.2026: Invited to the program committee of <a href="https://2027.eurosys.org">ACM EuroSys 2027</a>.</li>
-        <li>12.2025: Invited to the program committee of <a href="https://icdcs2026.icdcs.org">IEEE ICDCS 2026</a> and <a href="https://iwqos2026.ieee-iwqos.org">IEEE IWQoS 2026</a>.</li>
-        <li>12.2025: Invited to the program committee of <a href="https://acmsocc.org/2026/">ACM SoCC 2026</a>, <a href="https://www.sigmobile.org/mobihoc/2026/">ACM MobiHoc 2026</a>, and <a href="https://www.cse.chalmers.se/~elad/ApPLIED2026/">ACM ApPLIED@PODC 2026</a>.</li>
-        <li>10.2025: Project on <a href="https://en.cs.uni-paderborn.de/cn/newsfolder/news/project-on-serverless-in-network-acceleration-with-fpgas-funded-by-dfg">serverless in-network computing</a> funded by DFG.</li>
-        <li>09.2025: Invited to serve as a senior program committee member for <a href="https://www2026.thewebconf.org">ACM Web Conference 2026</a>.</li>
-        <li>06.2025: Uirapuru accepted to <a href="https://www.sigmobile.org/mobicom/2025/">ACM MobiCom 2025</a>.</li>
+
+      <h3>Updates</h3>
+      <ul class="updates-list">
+        <li><span class="date-badge">Mar 2026</span><span>Paper on benchmarking VLM performance accepted to <a href="https://euromlsys.eu">EuroMLSys</a>.</span></li>
+        <li><span class="date-badge">Jan 2026</span><span>Paper on vLLM startup latency analysis accepted to <a href="https://mlsys.org">MLSys 2026</a>.</span></li>
+        <li><span class="date-badge">Jan 2026</span><span>Invited to the program committee of <a href="https://2027.eurosys.org">ACM EuroSys 2027</a>.</span></li>
+        <li><span class="date-badge">Dec 2025</span><span>Invited to the program committee of <a href="https://icdcs2026.icdcs.org">IEEE ICDCS 2026</a> and <a href="https://iwqos2026.ieee-iwqos.org">IEEE IWQoS 2026</a>.</span></li>
+        <li><span class="date-badge">Dec 2025</span><span>Invited to the program committee of <a href="https://acmsocc.org/2026/">ACM SoCC 2026</a>, <a href="https://www.sigmobile.org/mobihoc/2026/">ACM MobiHoc 2026</a>, and <a href="https://www.cse.chalmers.se/~elad/ApPLIED2026/">ACM ApPLIED@PODC 2026</a>.</span></li>
+        <li><span class="date-badge">Oct 2025</span><span>Project on <a href="https://en.cs.uni-paderborn.de/cn/newsfolder/news/project-on-serverless-in-network-acceleration-with-fpgas-funded-by-dfg">serverless in-network computing</a> funded by DFG.</span></li>
+        <li><span class="date-badge">Sep 2025</span><span>Invited to serve as a senior program committee member for <a href="https://www2026.thewebconf.org">ACM Web Conference 2026</a>.</span></li>
+        <li><span class="date-badge">Jun 2025</span><span>Uirapuru accepted to <a href="https://www.sigmobile.org/mobicom/2025/">ACM MobiCom 2025</a>.</span></li>
       </ul>
     </section>
+
     <section id="publications">
       <h3>Recent Publications</h3>
-      <ul>
-        <li>Before the First Token: Benchmarking Data Preprocessing in Vision-Language Models. EuroMLSys 2026.</li>
-        <li>Breaking the Ice: Analyzing Cold Start Latency in vLLM. MLSys 2026.</li>
-        <li>Uirapuru: Timely Video Analytics for High-Resolution Steerable Cameras on Edge Devices. MobiCom 2025.</li>
-        <li>It Takes Two to Tango: Serverless Workflow Serving via Bilaterally Engaged Resource Adaptation. IPDPS 2025.</li>
-        <li>InferCool: Enhancing AI Inference Cooling through Transparent, Non-Intrusive Task Reassignment. SoCC 2024.</li>
-        <li>NetCL: A Unified Programming Framework for In-Network Computing. SC 2024.</li>
-        <li>A Little Certainty is All We Need: Discovery and Synchronization Acceleration in Battery-Free IoT. APNet 2024.</li>
-        <li>𝜆Grapher: A Resource-Efficient Serverless System for GNN Serving through Graph Sharing. WWW 2024.</li>
-        <li>Sponge: Inference Serving with Dynamic SLOs Using In-Place Vertical Scaling. EuroMLSys 2024.</li>
+      <ul class="pub-list">
+        <li><span class="venue">EuroMLSys 2026</span><span>Before the First Token: Benchmarking Data Preprocessing in Vision-Language Models</span></li>
+        <li><span class="venue">MLSys 2026</span><span>Breaking the Ice: Analyzing Cold Start Latency in vLLM</span></li>
+        <li><span class="venue">MobiCom 2025</span><span>Uirapuru: Timely Video Analytics for High-Resolution Steerable Cameras on Edge Devices</span></li>
+        <li><span class="venue">IPDPS 2025</span><span>It Takes Two to Tango: Serverless Workflow Serving via Bilaterally Engaged Resource Adaptation</span></li>
+        <li><span class="venue">SoCC 2024</span><span>InferCool: Enhancing AI Inference Cooling through Transparent, Non-Intrusive Task Reassignment</span></li>
+        <li><span class="venue">SC 2024</span><span>NetCL: A Unified Programming Framework for In-Network Computing</span></li>
+        <li><span class="venue">APNet 2024</span><span>A Little Certainty is All We Need: Discovery and Synchronization Acceleration in Battery-Free IoT</span></li>
+        <li><span class="venue">WWW 2024</span><span>𝜆Grapher: A Resource-Efficient Serverless System for GNN Serving through Graph Sharing</span></li>
+        <li><span class="venue">EuroMLSys 2024</span><span>Sponge: Inference Serving with Dynamic SLOs Using In-Place Vertical Scaling</span></li>
       </ul>
     </section>
+
     <section id="awards">
-      <h3>Awards and Recognition</h3>
-      <ul>
-        <li>Google Research Scholar Award, 2022</li>
-        <li>Outstanding Paper Award, RTSS 2022</li>
-        <li>Second Best Paper Award, ISCC 2024</li>
-        <li>Best Paper Award, IPCCC 2023</li>
-        <li>Best Paper Award, HotPNS@ICNP 2016</li>
-        <li>IEEE Senior Member, since 2021</li>
-        <li>Athene Young Investigator Award by TU Darmstadt, 2018</li>
-        <li>Distinguished PC Member, INFOCOM 2024, 2025</li>
+      <h3>Awards &amp; Recognition</h3>
+      <ul class="awards-list">
+        <li>IEEE Senior Member <span class="year">since 2021</span></li>
+        <li>Google Research Scholar Award <span class="year">2022</span></li>
+        <li>Outstanding Paper Award, RTSS <span class="year">2022</span></li>
+        <li>Second Best Paper Award, ISCC <span class="year">2024</span></li>
+        <li>Best Paper Award, IPCCC <span class="year">2023</span></li>
+        <li>Best Paper Award, HotPNS@ICNP <span class="year">2016</span></li>
+        <li>Distinguished PC Member, INFOCOM <span class="year">2024, 2025</span></li>
+        <li>Athene Young Investigator Award, TU Darmstadt <span class="year">2018</span></li>
       </ul>
     </section>
+
     <section id="projects">
       <h3>Projects</h3>
-      <ul>
-        <li>DFG SINA</li>
-        <li>DFG SFB 1053 MAKI</li>
-        <li>DFG-NSFC SmartEdge</li>
-        <li>NWO Open Compeition XS INET</li>
-        <li>NWO Open Compeition XS FREE</li>
+      <ul class="awards-list">
+        <li>DFG SINA <span class="year">2026-2029</span></li>
+        <li>DFG SFB 1053 MAKI <span class="year">2018-2024</span></li>
+        <li>DFG-NSFC SmartEdge <span class="year">2018-2021</span></li>
+        <li>NWO Open Competition XS FREE <span class="year">2022-2023</span></li>
+        <li>NWO Open Competition XS INET <span class="year">2021-2022</span></li>
       </ul>
     </section>
+
     <section id="courses">
-      <h3>Courses</h3>
-      <ul>
+      <h3>Teaching</h3>
+      <ul class="awards-list">
         <li>Computer Networks</li>
         <li>Distributed Systems</li>
         <li>Advanced Networked Systems</li>
       </ul>
     </section>
+
     <section id="services">
-      <h3>Recent Services</h3>
-      <ul>
-        <li>Associate Editor: IEEE Transactions on Services Computing</li>
-        <li>PC: ACM SoCC (2022-2026), ACM SYSTOR (2025), IEEE ICDCS (2022-2025), ACM/IEEE SEC (2023, 2024), ACM MobiHoc (2022-2026), IEEE INFOCOM (2024-2026), IEEE IWQoS (2024-2026), ACM ApPLIED@PODC (2022-2026), ACM Middleware (2023)</li>
-        </li>
+      <h3>Services</h3>
+      <ul class="services-list">
+        <li><strong>Associate Editor:</strong><span>IEEE Transactions on Services Computing</span></li>
+        <li><strong>Program Committee:</strong><span>ACM SoCC (2022–2026), ACM EuroSys (2027), ACM SYSTOR (2025), IEEE ICDCS (2022–2026), ACM/IEEE SEC (2023, 2024), ACM MobiHoc (2022–2026), IEEE INFOCOM (2024–2026), IEEE IWQoS (2024–2026), ACM ApPLIED@PODC (2022–2026), ACM Middleware (2023)</span></li>
       </ul>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; Lin Wang &middot; Paderborn University</p>
+  </footer>
 </body>
 </html>
