@@ -124,21 +124,26 @@ section > h3:first-child {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 0.6rem;
+  column-gap: 0.75rem;
+  align-items: baseline;
 }
 
 .updates-list li {
-  display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
+  display: contents;
   font-size: 0.88rem;
   color: #374151;
 }
 
+.updates-list li > span:last-child {
+  font-size: 0.88rem;
+  color: #374151;
+  align-self: baseline;
+}
+
 .date-badge {
-  flex-shrink: 0;
   font-size: 0.72rem;
   font-weight: 600;
   color: #6b7280;
@@ -146,8 +151,9 @@ section > h3:first-child {
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
   white-space: nowrap;
-  min-width: 7rem;
   text-align: right;
+  justify-self: end;
+  align-self: baseline;
 }
 
 /* ── Publications ── */
@@ -155,22 +161,25 @@ section > h3:first-child {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 0.6rem;
+  column-gap: 0.75rem;
+  align-items: start;
 }
 
 .pub-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+  display: contents;
+}
+
+.pub-list li > span:last-child {
   font-size: 0.88rem;
   color: #374151;
   line-height: 1.55;
+  align-self: start;
 }
 
 .venue {
-  flex-shrink: 0;
   font-size: 0.72rem;
   font-weight: 600;
   color: #6b7280;
@@ -178,8 +187,9 @@ section > h3:first-child {
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
   white-space: nowrap;
-  min-width: 7rem;
   text-align: right;
+  justify-self: end;
+  align-self: start;
 }
 
 /* ── Awards ── */
@@ -235,21 +245,8 @@ section > h3:first-child {
 }
 
 .services-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
   font-size: 0.88rem;
   color: #374151;
-}
-
-.services-list li strong {
-  white-space: nowrap;
-  flex-shrink: 0;
-  min-width: 10.5rem;
-}
-
-.services-list li span {
-  text-align: left;
 }
 
 /* ── Footer ── */
