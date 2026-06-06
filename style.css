@@ -197,11 +197,11 @@ section > h3:first-child {
 }
 
 .badge-pdf {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 600;
   color: #2563eb;
-  background: #eff6ff;
-  padding: 0.1rem 0.45rem;
+  background: #f3f4f6;
+  padding: 0.15rem 0.55rem;
   border-radius: 999px;
   white-space: nowrap;
   margin-left: 0.3rem;
@@ -209,7 +209,7 @@ section > h3:first-child {
 }
 
 .badge-pdf:hover {
-  background: #dbeafe;
+  background: #e5e7eb;
   text-decoration: none;
 }
 
