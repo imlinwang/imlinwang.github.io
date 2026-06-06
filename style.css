@@ -213,6 +213,23 @@ section > h3:first-child {
   text-decoration: none;
 }
 
+.badge-code {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #16a34a;
+  background: #f3f4f6;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
+.badge-code:hover {
+  background: #e5e7eb;
+  text-decoration: none;
+}
+
 /* ── Awards ── */
 .awards-list {
   list-style: none;
