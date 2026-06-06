@@ -196,6 +196,23 @@ section > h3:first-child {
   align-self: start;
 }
 
+.badge-pdf {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #2563eb;
+  background: #eff6ff;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
+.badge-pdf:hover {
+  background: #dbeafe;
+  text-decoration: none;
+}
+
 /* ── Awards ── */
 .awards-list {
   list-style: none;
